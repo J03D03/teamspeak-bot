@@ -72,7 +72,6 @@ public class ChannelBot extends Bot {
                 }
             });
         } catch (Exception ex) {
-            botlog.log(ex.getStackTrace().toString());
             System.out.println(ex.getMessage());
         }
     }
@@ -86,7 +85,6 @@ public class ChannelBot extends Bot {
             setChannelProperties(properties, api, clientID, targetID, channel);
             tempChannelID = api.createChannel(channel.getChannelName() + " " + nickname, properties);
         } catch (Exception ex) {
-            botlog.log("Could not create the channel.");
         }
         return tempChannelID;
 
