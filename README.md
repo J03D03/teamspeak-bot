@@ -15,7 +15,7 @@ Use the [TeamSpeak 3 API](https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API)
 - Create a server query user ([TeamSpeak3 add server query tutorial](https://www.teamspeak3.com/support/teamspeak-3-add-server-query-user.php#:~:text=At%20the%20top%20of%20the,the%20%22ServerQuery%20Login%22%20option.&text=Type%20in%20the%20server%20query,for%20you%20to%20login%20with.)).
 - Create a directory where your bot shall reside `mkdir tsbot`
 - Copy all files from the [installation](./installation) directory  into the `tsbot` directory.
-- Create an `env.list` ([example env.list](./installation/env.list)) and save it to the `tsbot` directory
+- Update the [env.list](./installation/env.list)
 
 
 # Define dynamic channels
