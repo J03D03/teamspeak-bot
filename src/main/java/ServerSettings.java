@@ -8,7 +8,6 @@ public class ServerSettings {
     String topicKeyword = "*BOT*";
     int floodRate = 200;
     int queryPort = 10011;      // Default queryPort (TeamSpeak)
-    int timeToLive = 20;        // [m]inutes
     int channelAdminId = 5;     // Default channelAdmin ID (TeamSpeak)
     int defaultChannelID = 1;   // With a fresh TeamSpeak installation the 'Default Channel' has the ID=1
     int serverId = 1;           // Depending on how many TeamSpeak instances you run on your server
@@ -28,9 +27,6 @@ public class ServerSettings {
         }
         if(System.getenv("TSBOT_TOPIC_KEYWORD") != null) {
             topicKeyword = System.getenv("TSBOT_TOPIC_KEYWORD");
-        }
-        if(System.getenv("TSBOT_TIME_TO_LIVE") != null){
-            timeToLive = Integer.parseInt(System.getenv("TSBOT_TIME_TO_LIVE"));
         }
         if(System.getenv("TSBOT_FLOOD_RATE") != null){
             floodRate = Integer.parseInt(System.getenv("TSBOT_FLOOD_RATE"));

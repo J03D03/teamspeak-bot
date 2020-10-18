@@ -115,6 +115,7 @@ public class ChannelBot extends Bot {
 
     public static void main(String[] args) {
         ChannelBot bot = new ChannelBot();
-        bot.start();
+        bot.serverGateway = new ServerGateway();
+        bot.run();
     }
 }

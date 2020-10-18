@@ -102,7 +102,8 @@ public class LegacyBot extends Bot {
 
     public static void main(String[] args) {
         LegacyBot bot = new LegacyBot();
-        bot.start();
+        bot.serverGateway = new ServerGateway();
+        bot.run();
     }
 }
 
