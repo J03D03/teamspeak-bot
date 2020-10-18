@@ -19,10 +19,10 @@ Use the [TeamSpeak 3 API](https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API)
 
 
 # Define dynamic channels
-To make a channel dynamic you have to put the `TSBOT_TOPIC_KEYWORD` in the channel topic followed by a text e.g. Topic=`*BOT*Channel of`.
+To make a channel dynamic you have to put the `TSBOT_TOPIC_KEYWORD` in the channel topic followed by a text of your choice.
 ![](.images/topic_example.png)
 
-If `J03D03` joins this channel a temporary sub-channel `Channel of J03D03` will be created and he will be switched immediately.
+If `J03D03` joins this channel a temporary sub-channel `'Channel of J03D03'` will be created and he will be switched immediately.
 
 # Start the bot
 After you have configured everything to your needs
