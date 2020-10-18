@@ -1,21 +1,21 @@
 # TeamSpeak 3 Bot
-Use the [TeamSpeak 3 API](https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API) by [TheHolyWaffle](https://github.com/TheHolyWaffle) to create dynamic channels and do some automation.
+Use the [TeamSpeak 3 API](https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API) by [TheHolyWaffle](https://github.com/TheHolyWaffle) to create dynamic channels.
 
 # Features
 ### Channel bot
 - Dynamic channel creation/deletion
-- Grant permissions to modify the temporary channel
+- Grant channel commander permission for the created channel
 
 ### Legacy bot
-- Give the permission to another user after the channel commander left the dynamic channel
+- Give the ownership to another user after the channel commander left the dynamic channel
 - Rename the dynamic channel accordingly
 
 # Run with docker
 - [Get docker](https://docs.docker.com/get-docker/) and install it your machine/server/vserver
 - Create a server query user ([TeamSpeak3 add server query tutorial](https://www.teamspeak3.com/support/teamspeak-3-add-server-query-user.php#:~:text=At%20the%20top%20of%20the,the%20%22ServerQuery%20Login%22%20option.&text=Type%20in%20the%20server%20query,for%20you%20to%20login%20with.)).
 - Create a directory where your bot shall reside `mkdir tsbot`
-- Copy all files from the `installation` directory into the `tsbot` directory.
-- Create an `env.list` ([example env.list](https://github.com/J03D03/teamspeak-bot/blob/development/env.list)) and save it to the `tsbot` directory
+- Copy all files from the [installation](./installation) directory  into the `tsbot` directory.
+- Create an `env.list` ([example env.list](./installation/env.list)) and save it to the `tsbot` directory
 
 
 # Define dynamic channels
