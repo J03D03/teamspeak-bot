@@ -11,7 +11,7 @@ Use the [TeamSpeak 3 API](https://github.com/TheHolyWaffle/TeamSpeak-3-Java-API)
 - Rename the dynamic channel accordingly
 
 # Run with docker
-- [Get docker](https://docs.docker.com/get-docker/) and install it your machine/server/vserver
+- [Get docker](https://docs.docker.com/get-docker/) and install it on your machine/server/vserver
 - Create a server query user ([TeamSpeak3 add server query tutorial](https://www.teamspeak3.com/support/teamspeak-3-add-server-query-user.php#:~:text=At%20the%20top%20of%20the,the%20%22ServerQuery%20Login%22%20option.&text=Type%20in%20the%20server%20query,for%20you%20to%20login%20with.)).
 - Create a directory where your bot shall reside `mkdir tsbot`
 - Copy all files from the [installation](./installation) directory  into the `tsbot` directory.
